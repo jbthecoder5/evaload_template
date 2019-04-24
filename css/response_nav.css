@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px ) {
+    .fluid-nav ul li a {
+        background-color: red;
+        width: 100px;
+        display: block;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+    .fluid-nav ul li a {
+        background-color: paleturquoise;
+        width: 300px;
+    }
+}
