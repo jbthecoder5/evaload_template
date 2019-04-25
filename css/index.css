@@ -5,7 +5,10 @@
 .index-header {
     width:100%;
     height: 100vh;
-    background: url('../images/businesswoman-busy-laptop-1080855.jpg');
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+    url('../images/businesswoman-busy-laptop-1080855.jpg');
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: cover;
@@ -15,7 +18,7 @@
     background: #1B2221;
     opacity: 0.75;
     width: 100%;
-    height: 80px;
+    height: 8vh;
 }
 
 .ul-wrapper {
@@ -25,11 +28,11 @@
 }
 
 .ul-wrapper .nav-links {
-    line-height: 80px;
+    line-height: 8vh;
 }
 
 .nav-links {
-    height: 66px;
+    height: 8vh;
     width: 12%;
 }
 
@@ -47,35 +50,90 @@
 }
 
 .hd-idx-wrapper {
-
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 88vh;
 }
 
 .hd-msg {
-
+    width: 100%;
+    margin-bottom: 24px; 
 }
 
 .hd-btn-wrapper {
-    display: flex;
     width: 100%;
-    justify-content: center;
+    margin-top: 20px;
+    display: flex;
 }
 
 .hd-msg h1, .hd-msg h3 {
     font-family: 'Courier New', Courier, monospace;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+    text-align: center;
 }
 
+.hd-msg h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.3em;
+    word-spacing: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+.hd-msg h3 {
+    font-size: 1.5em;
+    word-wrap: wrap;
+}
+
+.btn-holder {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 .btn-consult {
     background: #8DE3C5;
-    color: #FFFFFF;
-    width: 514px;
-    height: 126px;
+    width: 250px;
+    height: 75px;
+    border: 0;
 }
 
 .btn-pricing {
     background: #FFFFFF;
+    width: 250px;
+    height: 75px;
+    border: 0;
+}
+
+.btn-consult a {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.btn-pricing a {
+    text-align: center;
     color: #020000;
-    width: 514px;
-    height: 126px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.btn-consult:hover {
+    background: #1B2221;
+}
+
+.btn-consult a:hover {
+    color: #ccc;
+}
+
+.btn-pricing a:hover {
+    color: #fff;
+}
+
+.btn-pricing:hover {
+    background: #8DE3C5;
 }
