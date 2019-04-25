@@ -1,0 +1,81 @@
+.evaload {
+    width: 100%;
+}
+
+.index-header {
+    width:100%;
+    height: 100vh;
+    background: url('../images/businesswoman-busy-laptop-1080855.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+}
+
+.fluid-nav {
+    background: #1B2221;
+    opacity: 0.75;
+    width: 100%;
+    height: 80px;
+}
+
+.ul-wrapper {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ul-wrapper .nav-links {
+    line-height: 80px;
+}
+
+.nav-links {
+    height: 66px;
+    width: 12%;
+}
+
+.nav-links a {
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+}
+
+.nav-links:nth-child(3) {
+    width:45%;
+    text-align: center;
+}
+
+.hd-idx-wrapper {
+
+}
+
+.hd-msg {
+
+}
+
+.hd-btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.hd-msg h1, .hd-msg h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+}
+
+
+.btn-consult {
+    background: #8DE3C5;
+    color: #FFFFFF;
+    width: 514px;
+    height: 126px;
+}
+
+.btn-pricing {
+    background: #FFFFFF;
+    color: #020000;
+    width: 514px;
+    height: 126px;
+}
