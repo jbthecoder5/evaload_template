@@ -15,4 +15,55 @@
     of the index page
 */
 
+.sec-imgHolder {
+    height: 500px;
+    width: 45%;
+}
 
+.sec-img {
+    height: 500px;
+    width: 100%;
+}
+
+.sec-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-msg, .sec-submsg,
+.sec-grid {
+    width: 100%;
+}
+
+.sec-msg h1 {
+    color: #313030;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.sec-msg p {
+    color: #959595;
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.sec-submsg h4 {
+    color: #313030;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.sec-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-grid .sec-service {
+    width: 50%;
+}
+
+.sec-service .sec-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #157A9F;
+}
