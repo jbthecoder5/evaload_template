@@ -1,0 +1,72 @@
+.footer-wrapper {
+    width: 100%;
+    height: 335px;
+}
+
+.topFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #707070;
+    width: 100%;
+    height: 225px;
+}
+
+
+
+.tf-box {
+    width:25%;
+    
+}
+
+.tf-box ul {
+    list-style: none;
+}
+
+.tf-box ul li {
+    text-align: center;
+}
+
+.subf-header {
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+
+
+
+.btmFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #393838;
+    width: 100%;
+    height: 110px;
+}
+
+
+.cr {
+    width:50%;
+}
+
+.cr p {
+    text-align: center;
+    color: #fff;
+}
+
+
+.sm-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-wrapper .sm-box {
+    width: 10%;
+}
