@@ -17,21 +17,24 @@
 
 .sec3 {
     background: #F0F0F0;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     height: 650px;
     justify-content: space-around;
 }
 
 .sec4 {
     background: #E3E3E3;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     height: 500px;
     justify-content: space-around;
 }
 
 .sec5 {
     background: #F7F7F7;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     height: 550px;
     justify-content: space-around;
 }
