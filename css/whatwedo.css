@@ -1,0 +1,32 @@
+/* note: blur out the header image assets */
+
+
+/* media screen for 550px screen */
+@media screen and (max-width: 550px) {
+    .whatwedo-img {
+        background: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)),
+        url('../images/adult-books-business-374016.jpg');
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: cover;
+    }
+
+    .wwd-grid {
+        grid-template-columns: 0;
+        grid-row-gap: 10px;
+        grid-column-gap: 30px;
+    }
+}
+
+.whatwedo-img {
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+    url('../images/adult-books-business-374016.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+}
+
