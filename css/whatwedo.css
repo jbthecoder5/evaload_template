@@ -3,20 +3,37 @@
 
 /* media screen for 550px screen */
 @media screen and (max-width: 550px) {
-    .whatwedo-img {
-        background: linear-gradient(
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)),
-        url('../images/adult-books-business-374016.jpg');
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        background-size: cover;
-    }
 
     .wwd-grid {
-        grid-template-columns: 0;
-        grid-row-gap: 10px;
-        grid-column-gap: 30px;
+        grid-template-columns: (2, 1fr);
+        grid-row-gap: 2px;
+        grid-column-gap: 5px;
+    }
+
+    .wwd-msg-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 400px;
+        background: #E5E2E2;
+    }
+    
+    .wwd-title, .wwd-subtopic {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .wwd-title h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        text-decoration: underline;
+    }
+    
+    .wwd-subtopic p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1em;
+        word-spacing: 0.2em;
     }
 }
 
@@ -30,3 +47,48 @@
     background-size: cover;
 }
 
+.wwd-grid {
+    grid-template-columns: (4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+}
+
+.wwd-msg-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background: #E5E2E2;
+}
+
+.wwd-title {
+    width: 100%;
+    text-align: center;
+}
+
+.wwd-subtopic {
+    width: 45%;
+    text-align: center;
+}
+
+
+.wwd-subtopic {
+    margin-top: 2em;
+}
+
+
+.wwd-title h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+    text-decoration: underline;
+}
+
+.wwd-subtopic p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    word-spacing: 0.2em;
+}
