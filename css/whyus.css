@@ -1,3 +1,56 @@
+@media only screen and (max-width: 750px) {
+
+    /*
+    .head-msg {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .whyus-img {
+        background: linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)),
+        url('../images/los-angeles-1768743_1920.jpg');
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: cover;
+
+        position: relative;
+        top: 8vh;
+        left: 0;
+        right: 0;
+    }
+    */
+
+
+
+    .wu-flexbox {
+        width: 40%;
+        height: auto;   
+    }
+
+    .wu-list-icon {
+        width: 40%;
+        height: auto;
+    }   
+
+    .wu-list-icon i {
+        color: #56a756;
+        padding-bottom: 1rem;
+    }
+
+    .wu-text {
+        width: 30%;
+        padding-left: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .wu-test p {
+    }
+
+
+}
+
 .head-msg {
     width: 100%;
     height: 50vh;
@@ -77,6 +130,9 @@
     display: flex;
     flex-direction: row;    
 }
+
+
+/* text props */
 
 .wu-list-icon  {
     width: 5%;
