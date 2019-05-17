@@ -12,7 +12,51 @@
             flex-direction: column;
         }
 
+
+        /*
+            TOP PANEL OF
+            THE FORM
+        */
+
         .form-side-panel {
-            
+            margin-top: 2em;
+            background: #B56C7D;
+            height: auto;
+        }
+
+        .formPanel-header {
+            height: 50px;
+        }
+
+        .formPanel-subHeader {
+            height: 40px;
+            padding-bottom: 1em;
+        }
+
+        .formPanel-header h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 1.3em;
+            line-height: 50px;
+        }
+
+        .formPanel-subHeader h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 1em;
+            line-height: 40px;
+        }
+
+
+
+        /*
+            CONTENT WRAPPER 
+            OF THE FORM
+        */
+
+        .formContent-wrapper {
+            background: #F7F7F7;
         }
     }
