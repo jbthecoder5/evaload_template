@@ -58,5 +58,47 @@
 
         .formContent-wrapper {
             background: #F7F7F7;
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ipt-box {
+            box-sizing: border-box;
+            margin: 1.5em 0;
+        }
+
+        .ipt-box input {
+            padding: 0.5em;
+            width: 250px;
+            border: 1px solid #B56C7D;
+        }
+
+        .ipt-box input::placeholder {
+            color: #DEDEDE;
+        }
+        
+        .ipt-box .sbt {
+            width: 250px;
+            height: 50px;
+            background: greenyellow;
+            padding: 1em;
+            box-sizing: border-box;
+            display: block;
+            border-radius: 5px;
+            font-family: Cambria, Cochin, 
+            Georgia, Times, 'Times New Roman', serif;
+            font-size: 1em;
+            font-weight: bolder;
+            letter-spacing: 3px;
+            border: none;
+        }
+
+        .sbt:hover {
+            background:#B56C7D;
+            color: #fff;
         }
     }
