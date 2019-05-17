@@ -6,20 +6,22 @@ content of the index page
     height: 650px;
     width: 45%;
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
 }
  
 .sec-img {
-    height: 375px;
-    width: 55%;
+    height: 400px;
+    max-width: 100%;
+    width: 75%;
 }
 
 .sec-content {
+    height: 650px;
     width: 45%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .sec-msg, .sec-submsg,
@@ -85,40 +87,50 @@ content of the index page
     of the index page
 */
 
+
+.sec-content2 {
+    height: 650px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-msg {
+    width: 83%;
+}
+
 .sec-msg .sec-h {
     color: #313030;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     text-align: center;
 }
 
 .sec-msg .success-desc {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-align: center;
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1em;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.7em;
 }
 
 .sec-imgHolder2 {
     height: 650px;
-    width: 48%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.sec-imgHolder2 .sec-img2 {
-    height: 375px;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
 }
 
-.sec-content2 {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 1.5em;
+.sec-img2 {
+    height: 400px;
+    max-width: 100%;
+    width: 75%;
 }
