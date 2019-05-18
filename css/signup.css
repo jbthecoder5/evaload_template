@@ -106,105 +106,118 @@
 
 
 
-    .form-container {
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .form-wrap {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    /*
-        TOP PANEL OF
-        THE FORM
-    */
-
-    .form-side-panel {
-        margin-top: 2em;
-        background: #B56C7D;
-        height: 450px;
-        width: 600px;
-    }
-
-    .formPanel-header {
-        height: 50px;
-    }
-
-    .formPanel-subHeader {
-        height: 40px;
-        padding-bottom: 1em;
-    }
-
-    .formPanel-header h1 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 1.3em;
-        line-height: 50px;
-    }
-
-    .formPanel-subHeader h2 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 1em;
-        line-height: 40px;
-    }
 
 
 
-    /*
-        CONTENT WRAPPER 
-        OF THE FORM
-    */
+.form-container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-    .formContent-wrapper {
-        background: #F7F7F7;
-        height: 450px;
-        width: 900px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.form-wrap {
+    height: 550px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #3d3c3c;
+}
 
-    .ipt-box {
-        box-sizing: border-box;
-    }
+.form-side-panel {
+    height: 550px;
+    width: 40%;
+    background: #B56C7D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    .ipt-box input {
-        width: 250px;
-        border: 1px solid #B56C7D;
-    }
+.formContent-wrapper {
+    background: #F7F7F7;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-    .ipt-box input::placeholder {
-        color: #DEDEDE;
-    }
+
+/*
+    TOP PANEL OF
+    THE FORM
+*/
+
+.formPanel-header {
+    padding-bottom: 1.2em;
+}
+
+.formPanel-subHeader {
     
-    .ipt-box .sbt {
-        width: 250px;
-        height: 50px;
-        background: greenyellow;
-        box-sizing: border-box;
-        display: block;
-        border-radius: 5px;
-        font-family: Cambria, Cochin, 
-        Georgia, Times, 'Times New Roman', serif;
-        font-size: 1em;
-        font-weight: bolder;
-        letter-spacing: 3px;
-        border: none;
-    }
+}
 
-    .sbt:hover {
-        background:#B56C7D;
-        color: #fff;
-    }
+.formPanel-header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+
+.formPanel-subHeader h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+
+
+/*
+    CONTENT WRAPPER 
+    OF THE FORM
+*/
+
+.ipt-box {
+    box-sizing: border-box;
+    height: 45px;
+}
+
+
+
+.ipt-box input {
+    padding: 0.5em;
+    width: 250px;
+    border: 1px solid #B56C7D;
+    padding: 1em 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+.ipt-box input::placeholder {
+    color: #DEDEDE;
+}
+
+.ipt-box .sbt {
+    width: 120px;
+    background: #5f2d39;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, 
+    Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.sbt:hover {
+    background:#B56C7D;
+    color: #fff;
+}
