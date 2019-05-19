@@ -1,16 +1,32 @@
 /* media query code */
 
-@media only screen and (max-width: 750px) {
-
+@media (min-width: 481px) and (max-width: 767px) {
         .form-container {
             width: 100%;
         }
 
         .form-wrap {
             width: 100%;
-            height: auto;
             display: flex;
             flex-direction: column;
+            box-shadow: none;
+        }
+
+        .form-side-panel {
+            height: 500px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .formContent-wrapper {
+            background: #F7F7F7;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
 
@@ -19,22 +35,20 @@
             THE FORM
         */
 
-        .form-side-panel {
-            width: 100%;
-            margin-top: 2em;
-            background: #B56C7D;
-            height: 90px;
-        }
+        
 
         .formPanel-header {
-            height: 50px;
+            height: 25px;
+            width: 100%;
         }
 
         .formPanel-subHeader {
-            height: 40px;
+            height: 30px;
+            width: 100%;
         }
+        
 
-        h1 {
+        .formh1 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: #FFFFFF;
             text-align: center;
@@ -42,7 +56,7 @@
             line-height: 50px;
         }
 
-        h2 {
+        .formh2 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: #FFFFFF;
             text-align: center;
@@ -57,25 +71,15 @@
             OF THE FORM
         */
 
-        .formContent-wrapper {
-            background: #F7F7F7;
-            height: 400px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
         .ipt-box {
-            margin: 1.5em 0;
-            height: 50px;
+            height: 15px;
         }
 
         .ipt-box input {
-            padding: 0.5em;
-            width: 250px;
+            width: 50px;
             border: 1px solid #B56C7D;
+            font-size: 1em;
+            text-align: left;
         }
 
         .ipt-box input::placeholder {
@@ -84,9 +88,9 @@
         
         .ipt-box .sbt {
             width: 250px;
-            height: 50px;
             background: greenyellow;
             display: block;
+            padding: 1em;
             border-radius: 5px;
             font-family: Cambria, Cochin, 
             Georgia, Times, 'Times New Roman', serif;
@@ -103,6 +107,10 @@
     }
 
 
+
+
+
+/* DESKTOP CSS STYLING CODE  */
 
 .form-container {
     width: 100%;
@@ -153,7 +161,7 @@
     
 }
 
-h1 {
+.formh1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     text-align: center;
@@ -161,7 +169,7 @@ h1 {
     
 }
 
-h2 {
+.formh2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     text-align: center;
@@ -183,7 +191,6 @@ h2 {
 
 
 .ipt-box input {
-    padding: 0.5em;
     width: 250px;
     border: 1px solid #B56C7D;
     padding: 1em 0;
