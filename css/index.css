@@ -1,8 +1,3 @@
-
-
-
-
-
 /* the first section 
 content of the index page
 */
@@ -149,5 +144,34 @@ content of the index page
 
     */
 
-    
+    .sec-imgHolder {
+        height: 350px;
+        width: 80%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+    .sec-img {
+        height: 350px;
+        max-width: 100%;
+        width: 80%;
+    }
+
+    .sec-content {
+        height: 650px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
 }
