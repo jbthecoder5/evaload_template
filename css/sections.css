@@ -56,4 +56,9 @@
         padding-top: 3em;
         padding-bottom: 3em;
     }
+
+    .sec2 {
+        background:  #F7B6B4;
+        flex-direction: column-reverse;
+    }
 }

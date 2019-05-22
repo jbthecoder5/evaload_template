@@ -174,4 +174,38 @@ content of the index page
         align-content: center;
         flex-wrap: wrap;
     }
+
+    /*
+
+    ### section 2 styling
+
+    */
+
+    .sec-content2 {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sec-msg {
+        width: 100%;
+    }
+
+    .sec-imgHolder2 {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center
+    }
+    
+    .sec-img2 {
+        height: 300px;
+        max-width: 100%;
+        width: 80%;
+    }
 }
