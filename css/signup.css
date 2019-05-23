@@ -1,115 +1,3 @@
-/* media query code */
-
-@media (min-width: 481px) and (max-width: 767px) {
-        .form-container {
-            width: 100%;
-        }
-
-        .form-wrap {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            box-shadow: none;
-        }
-
-        .form-side-panel {
-            height: 500px;
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .formContent-wrapper {
-            background: #F7F7F7;
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-        /*
-            TOP PANEL OF
-            THE FORM
-        */
-
-        
-
-        .formPanel-header {
-            height: 25px;
-            width: 100%;
-        }
-
-        .formPanel-subHeader {
-            height: 30px;
-            width: 100%;
-        }
-        
-
-        .formh1 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 1.3em;
-            line-height: 50px;
-        }
-
-        .formh2 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 1em;
-            line-height: 40px;
-        }
-
-
-
-        /*
-            CONTENT WRAPPER 
-            OF THE FORM
-        */
-
-        .ipt-box {
-            height: 15px;
-        }
-
-        .ipt-box input {
-            width: 50px;
-            border: 1px solid #B56C7D;
-            font-size: 1em;
-            text-align: left;
-        }
-
-        .ipt-box input::placeholder {
-            color: #DEDEDE;
-        }
-        
-        .ipt-box .sbt {
-            width: 250px;
-            background: greenyellow;
-            display: block;
-            padding: 1em;
-            border-radius: 5px;
-            font-family: Cambria, Cochin, 
-            Georgia, Times, 'Times New Roman', serif;
-            font-size: 1em;
-            font-weight: bolder;
-            letter-spacing: 3px;
-            border: none;
-        }
-
-        .sbt:hover {
-            background:#B56C7D;
-            color: #fff;
-        }
-    }
-
-
-
-
-
 /* DESKTOP CSS STYLING CODE  */
 
 .form-container {
@@ -219,4 +107,120 @@
 .sbt:hover {
     background:#B56C7D;
     color: #fff;
+}
+
+
+
+
+
+
+/* media query code */
+
+@media (max-width: 750px) {
+    .form-container {
+        width: 100%;
+    }
+
+    .form-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+
+    /*
+        TOP PANEL OF
+        THE FORM
+    */
+
+    
+    .form-side-panel {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formPanel-header {
+        height: 60px;
+        width: 100%;
+    }
+
+    .formPanel-subHeader {
+        height: 60px;
+        width: 100%;
+    }
+    
+
+    .formh1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.3em;
+        line-height: 60px;
+    }
+
+    .formh2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1em;
+        line-height: 60px;
+    }
+
+
+
+    /*
+        CONTENT WRAPPER 
+        OF THE FORM
+    */
+
+    .formContent-wrapper {
+        padding-top: 1.2em;
+        background: #F7F7F7;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ipt-box {
+        height: 55px;
+        width: 50%;
+        padding-bottom: 3em;
+    }
+
+    .ipt-box input {
+        height: 50px;
+        width: 100%;
+        border: 1px solid #B56C7D;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .ipt-box input::placeholder {
+        color: #DEDEDE;
+    }
+    
+    .ipt-box .sbt {
+        width: 100%;
+        background: greenyellow;
+        border: none;
+        border-radius: 5px;
+        font-family: Cambria, Cochin, 
+        Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.4em;
+        border: none;
+        padding-bottom: 2em;
+        
+    }
+
+    .sbt:hover {
+        background:#B56C7D;
+        color: #fff;
+    }
 }
